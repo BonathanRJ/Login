@@ -1,10 +1,80 @@
+
+body{
+    background-color: rgb(9, 2, 14);
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cartao{
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+}
+
+.titulo{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+}
+
+.descricao__titulo{
+    font-size: 1rem;
+    color: rgb(158, 150, 150);
+}
+
 .cartao__conteudo{
     padding: 24px 16px;
     display: flex;
     flex-direction: column;
-    gap: 16px;
     text-align: center;
-    border: 2px solid red;
-    border-radius: 25px;
+    border: 2px solid rgb(70, 68, 68);
+    margin: auto;
+    margin-top:15px;
+    color: white;
+    width:150px;
 }
 
+
+
+.esqueceu{
+    color: rgb(231, 26, 214);
+    text-align: end;
+    margin: 10px 15px
+}
+
+.entrar{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    gap: 25px;
+    
+}
+
+.cartao_entrar{
+    border-radius: 5px;
+    padding: 15px 40px;
+    background-image: linear-gradient(to bottom right, rgb(149, 81, 167), rgb(233, 7, 195));
+}
+
+.cartao_cadastro{
+    border-radius: 5px;
+    padding: 15px 40px;
+    background-color: rgb(54, 46, 46);
+}
+
+.OU{
+    color:purple;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 45px;
+}
