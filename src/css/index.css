@@ -1,0 +1,10 @@
+.cartao__conteudo{
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 25px;
+}
+
